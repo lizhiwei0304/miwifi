@@ -1,0 +1,19 @@
+获取root 密码 和 开 ssh 包
+https://d.miwifi.com/rom/ssh   
+
+HONOR X10_plus(小米路由器mini)root密码 7588bf8f
+
+开发版固件下载
+http://www1.miwifi.com/miwifi_download.html
+
+openwrt固件下载
+https://www.right.com.cn/forum/thread-4049323-1-1.html
+breed下载
+https://breed.hackpascal.net
+
+1，稳定版 - 开发版
+2，开发版 - 开启 SSH 的开发版
+3，刷入breed
+mtd -r write /tmp/breed.bin Bootloader
+4，进入breed控制台192.168.1.1
+5，开刷
